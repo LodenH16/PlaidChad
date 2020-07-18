@@ -1,0 +1,101 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk; 
+}
+header {
+    
+    background: linear-gradient(70deg, #bf95bf 35%, #279dcc);
+    height: 340px;
+    width: 100%;
+    position: relative;  
+    z-index: -2;
+    
+}
+#logo {
+    max-height: 15vw;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 20px;
+    position: absolute;
+    bottom: 30px;
+    min-block-size: 220px;
+    z-index: -1;
+  }
+#title {
+    text-align: center;
+    padding: .5em;
+    margin: 0px;
+    clear: both;
+    font-family: helvetica;
+    font-size: 5vw;
+    letter-spacing: .2em;
+  }
+#desc {
+    text-align: center;
+    padding: .2em;
+    font-family: helvetica;
+    font-size: 2em;
+  }
+#links {
+    max-height: 300px;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 20px;
+    position: relative;
+    margin-left: 85%;
+}
+#twitchlogo {
+    height: 30px;
+
+}
+#twitterlogo {
+    height: 30px;
+}
+#youtubelogo {
+    height: 30px;
+}
+.card {
+   height: 600px;
+   width: 30vmax;
+   margin-top: 10px;
+   border-radius: 20px;
+   background-color: hsl(33, 100%, 88%);
+   min-width: 360px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.twitter-timeline {
+    align-self: center;
+    margin-bottom: 10px;
+}
+#profilepic {
+    width: 30%;
+    border-radius: 50%;
+    margin: 14px;
+}
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card h1 {
+    text-align: center;
+    margin: auto;
+}
+.card li {
+    margin: auto;
+}
+.card iframe {
+    align-self: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.twitter-follow-button {
+    position: absolute;
+    z-index: 1;
+    
+    margin: 10px 10px auto auto;
+
+}
